@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input {
+      /* height: 100px; */
+      display: inline-block;
+    }
+    button {
+      /* width: 60px; */
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+    <form action="https://www.naver.com">
+      <input type="text" value="춘식이" placeholder="이름을 쓰세요"> <br>
+      <input type="password"> <br>
+      <input type="email"> <br>
+      <input type="checkbox" name="hobby"> 게임
+      <input type="checkbox" name="hobby" disabled> 게임
+      <input type="checkbox" name="hobby" checked> 게임 <br>
+      
+      <input type="radio" name="mail" checked> 예
+      <input type="radio" name="mail" disabled> 아니오
+      
+      <br>
+      <input type="number" value="5" min="3" max="10">
+      <br>
+      <input type="range" value="8" min="0" max="10">
+      <br>
+      <input type="file" multiple accept="image/*">
+      <input type="hidden" name="nick" value="바보">
+      
+      <br> 
+      <button type="button">button</button>
+      <button type="submit">submit</button> <!-- action으로 제출 -->
+      <button type="reset">reset</button>
+
+    </form>
+  
+</body>
+</html>
